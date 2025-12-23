@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Inter", system-ui, sans-serif;
+  color: #0f0f0f;
+  background-color: #ffffff;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #ffffff;
+  background-image:
+    linear-gradient(rgba(15, 15, 15, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(15, 15, 15, 0.03) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+::selection {
+  background: #0f0f0f;
+  color: #ffffff;
+}
